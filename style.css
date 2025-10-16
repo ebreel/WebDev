@@ -1,0 +1,44 @@
+body{
+    background: linear-gradient(to right, rgb(67, 66, 66), #954242);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.card{
+    background: white;
+    border-radius:15px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    padding: 30px;
+    width: 300px;
+    text-align: center;
+    transition: all 0.5s ease;
+
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.7);
+}
+
+profile-img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 4px solid  #954242;
+}
+
+button{
+    background-color: #954242;
+    color: azure;
+    padding: 10px 20px;
+    border-radius: 24%;
+    font-size: 16px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover{
+    background-color: azure;
+    color: #954242;
+    transform: scale(1.05);
+}
